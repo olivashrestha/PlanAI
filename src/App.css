@@ -1,38 +1,113 @@
-.App {
+body {
+  background-color: #e8dfff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.chat-container {
+  background-color: #f7edff;
+  padding: 80px;
+  border-radius: 8px;
+  text-align: left;
+  border: 4px solid  #a40af0;
+}
+
+.mes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user-message {
+  background-color: #ffbdf9;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+  color: #fcf9f6;
+  white-space: nowrap; /* Prevent wrapping to a new line */
+}
+
+.input-container {
+  border: 3px solid #ffbdf9;
+  background-color: #fcf9f6;
+  outline: none;
+  padding: 5px 10px;
+  color: #a40af0;
+  font-size: 12px;
+  border-radius: 10px;
+  flex-grow: 1; /* Allow the input container to grow and fill available space */
+}
+
+
+.ai-message {
+  background-color: #f5e5ff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.title {
+  color: #a40af0;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.loading-text {
+  width: 15%;
+  margin-top: 10px;
+  border: 3px solid #ffbdf9;
+  background-color: #fcf9f6;
+  padding: 5px 10px;
+  color: #a40af0;
+  font-size: 12px;
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.response-alert {
+  background-color: #ffbdf9;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-top: 12px;
+  color:#fcf9f6;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.but {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.load{
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.btn {
+  display: inline-block;
+  width: fit-content;
+  border: 3px solid  #a40af0;
+  padding: 6px 12px;
+  border-radius: 10px;
+  text-decoration: dashed;
+  background-color: #e8dfff;
+  color: #fcf9f6;
+  font-weight: 700;
+  transition: background 0.5s, color 0.5s;
+  align-items: center;
+}
+
+.btn:hover {
+  background:  #a40af0;
+  color: #fcf9f6;
 }
