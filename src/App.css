@@ -111,3 +111,42 @@ body {
   background:  #a40af0;
   color: #fcf9f6;
 }
+
+/* Add these styles to your App.css */
+.category-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-buttons .btn[disabled] {
+  background-color: #dcdcdc; /* Gray color for disabled buttons */
+  color: #666; /* Text color for disabled buttons */
+  cursor: not-allowed;
+}
+
+.start-new-button {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.body-sent-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* Add animation properties for fading out */
+  transition: opacity 0.9s ease, max-height 0.9s ease, padding 0.8s ease;
+  opacity: 1;
+  max-height: 1000px; /* Adjust this value based on your button size and layout */
+  padding: 10px;
+}
+
+.body-sent-buttons.hidden {
+  opacity: 0;
+  max-height: 0;
+  padding: 0;
+}
