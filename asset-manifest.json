@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PlanAI/static/css/main.7e96ffb4.css",
+    "main.js": "/PlanAI/static/js/main.efd71017.js",
+    "static/js/787.2066b35b.chunk.js": "/PlanAI/static/js/787.2066b35b.chunk.js",
+    "index.html": "/PlanAI/index.html",
+    "main.7e96ffb4.css.map": "/PlanAI/static/css/main.7e96ffb4.css.map",
+    "main.efd71017.js.map": "/PlanAI/static/js/main.efd71017.js.map",
+    "787.2066b35b.chunk.js.map": "/PlanAI/static/js/787.2066b35b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e96ffb4.css",
+    "static/js/main.efd71017.js"
+  ]
+}
